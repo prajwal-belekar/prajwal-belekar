@@ -787,7 +787,7 @@ Trying out technologies that look interesting.
 <td width="45%" align="center">
 
 <img
-  src="D:\prajwal-belekar\assets\itachi.png"
+  src=".\assets\itachi.png"
   width="280"
   alt="Anime inspired illustration"
 />
