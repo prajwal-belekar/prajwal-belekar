@@ -781,61 +781,13 @@ Trying out technologies that look interesting.
 
 <br>
 
-<table align="center">
-<tr>
-
-<td width="45%" align="center">
-
-<img
-  src=".\assets\itachi.png"
-  width="280"
-  alt="Anime inspired illustration"
-/>
-
-</td>
-
-<td width="55%" valign="middle">
-
-<h3>Hey 👋</h3>
-
-<p>
-I'm the kind of person who can start with a simple idea and somehow end up exploring five completely different technologies.
+<p align="center">
+  <img
+    src="./assets/about-me.svg"
+    width="100%"
+    alt="A little bit about me"
+  />
 </p>
-
-<p>
-<strong>🌱 Learning by building</strong>
-<br>
-I understand things better when I actually get to work with them.
-</p>
-
-<p>
-<strong>🔍 Going down rabbit holes</strong>
-<br>
-One interesting question can easily turn into hours of research.
-</p>
-
-<p>
-<strong>🎧 Working with a little background noise</strong>
-<br>
-Music, anime, or whatever happens to be playing.
-</p>
-
-<p>
-<strong>🧩 Figuring things out</strong>
-<br>
-Especially when something doesn't work the way I expected.
-</p>
-
-<br>
-
-<p>
-<i>Currently trying to balance curiosity, code, and way too many ideas.</i>
-</p>
-
-</td>
-
-</tr>
-</table>
 
 <br>
 

@@ -1,183 +1,318 @@
 <svg
-  width="900"
-  height="520"
-  viewBox="0 0 900 520"
   xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1200"
+  height="620"
+  viewBox="0 0 1200 620"
 >
 
-  <!-- Itachi background -->
-  <image
-    href="itachi.png"
-    x="0"
-    y="0"
-    width="900"
-    height="520"
-    preserveAspectRatio="xMidYMid slice"
-  />
+  <!-- ===================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ===================================================== -->
 
-  <!-- Dark transparent panel behind text -->
   <rect
-    x="455"
-    y="0"
-    width="445"
-    height="520"
-    fill="#05070b"
-    opacity="0.58"
+    width="1200"
+    height="620"
+    rx="24"
+    fill="#0D1117"
   />
 
-  <!-- Heading -->
-  <text
-    x="495"
-    y="72"
-    fill="#ffffff"
+  <!-- ===================================================== -->
+  <!-- LEFT IMAGE -->
+  <!-- ===================================================== -->
+
+  <defs>
+
+    <!-- Left-side image clipping -->
+    <clipPath id="imageClip">
+      <rect
+        x="0"
+        y="0"
+        width="610"
+        height="620"
+        rx="24"
+      />
+    </clipPath>
+
+    <!-- Gradient over image -->
+    <linearGradient
+      id="imageFade"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop
+        offset="0%"
+        stop-color="#000000"
+        stop-opacity="0.05"
+      />
+
+      <stop
+        offset="65%"
+        stop-color="#000000"
+        stop-opacity="0.15"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#0D1117"
+        stop-opacity="0.95"
+      />
+    </linearGradient>
+
+    <!-- Text panel gradient -->
+    <linearGradient
+      id="panelGradient"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop
+        offset="0%"
+        stop-color="#0D1117"
+        stop-opacity="0.88"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#0D1117"
+        stop-opacity="1"
+      />
+    </linearGradient>
+
+  </defs>
+
+  <!-- ===================================================== -->
+  <!-- ITACHI IMAGE -->
+  <!-- ===================================================== -->
+
+  <g clip-path="url(#imageClip)">
+
+    <image
+      href="./itachi.png"
+      x="0"
+      y="0"
+      width="610"
+      height="620"
+      preserveAspectRatio="xMidYMid slice"
+    />
+
+    <!-- Image fade into text section -->
+    <rect
+      x="0"
+      y="0"
+      width="610"
+      height="620"
+      fill="url(#imageFade)"
+    />
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- RIGHT TEXT PANEL -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="590"
+    y="0"
+    width="610"
+    height="620"
+    fill="url(#panelGradient)"
+  />
+
+  <!-- ===================================================== -->
+  <!-- VERTICAL DIVIDER -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="610"
+    y="45"
+    width="1"
+    height="530"
+    fill="#30363D"
+  />
+
+  <!-- ===================================================== -->
+  <!-- TEXT CONTENT -->
+  <!-- ===================================================== -->
+
+  <g
     font-family="Arial, Helvetica, sans-serif"
-    font-size="27"
-    font-weight="700"
+    fill="#F0F6FC"
   >
-    Hey 👋
-  </text>
 
-  <!-- Introduction -->
-  <text
-    x="495"
-    y="112"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="15"
-  >
-    I'm the kind of person who can start with
-  </text>
+    <!-- Heading -->
 
-  <text
-    x="495"
-    y="136"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="15"
-  >
-    a simple idea and somehow end up exploring
-  </text>
-
-  <text
-    x="495"
-    y="160"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="15"
-  >
-    completely different technologies.
-  </text>
+    <text
+      x="660"
+      y="78"
+      font-size="28"
+      font-weight="700"
+    >
+      Hey 👋
+    </text>
 
 
-  <!-- Learning -->
-  <text
-    x="495"
-    y="205"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="16"
-    font-weight="700"
-  >
-    🌱 Learning by building
-  </text>
+    <!-- Intro -->
 
-  <text
-    x="495"
-    y="228"
-    fill="#dddddd"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-  >
-    I understand things better when I actually
-  </text>
+    <text
+      x="660"
+      y="125"
+      font-size="18"
+      fill="#E6EDF3"
+    >
+      I'm the kind of person who can start with
+    </text>
 
-  <text
-    x="495"
-    y="249"
-    fill="#dddddd"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-  >
-    get to work with them.
-  </text>
+    <text
+      x="660"
+      y="151"
+      font-size="18"
+      fill="#E6EDF3"
+    >
+      a simple idea and somehow end up
+    </text>
 
+    <text
+      x="660"
+      y="177"
+      font-size="18"
+      fill="#E6EDF3"
+    >
+      exploring five completely different
+    </text>
 
-  <!-- Rabbit holes -->
-  <text
-    x="495"
-    y="295"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="16"
-    font-weight="700"
-  >
-    🔍 Going down rabbit holes
-  </text>
-
-  <text
-    x="495"
-    y="318"
-    fill="#dddddd"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-  >
-    One interesting question can easily turn
-  </text>
-
-  <text
-    x="495"
-    y="339"
-    fill="#dddddd"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-  >
-    into hours of research.
-  </text>
+    <text
+      x="660"
+      y="203"
+      font-size="18"
+      fill="#E6EDF3"
+    >
+      technologies.
+    </text>
 
 
-  <!-- Background noise -->
-  <text
-    x="495"
-    y="385"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="16"
-    font-weight="700"
-  >
-    🎧 Working with a little background noise
-  </text>
+    <!-- Learning by building -->
 
-  <text
-    x="495"
-    y="408"
-    fill="#dddddd"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-  >
-    Music, anime, or whatever happens to be playing.
-  </text>
+    <text
+      x="660"
+      y="245"
+      font-size="18"
+      font-weight="700"
+    >
+      🌱 Learning by building
+    </text>
+
+    <text
+      x="660"
+      y="271"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      I understand things better when I actually
+    </text>
+
+    <text
+      x="660"
+      y="295"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      get to work with them.
+    </text>
 
 
-  <!-- Figuring things out -->
-  <text
-    x="495"
-    y="452"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="16"
-    font-weight="700"
-  >
-    🧩 Figuring things out
-  </text>
+    <!-- Rabbit holes -->
 
-  <text
-    x="495"
-    y="475"
-    fill="#dddddd"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-  >
-    Especially when something doesn't work as expected.
-  </text>
+    <text
+      x="660"
+      y="337"
+      font-size="18"
+      font-weight="700"
+    >
+      🔍 Going down rabbit holes
+    </text>
+
+    <text
+      x="660"
+      y="363"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      One interesting question can easily turn
+    </text>
+
+    <text
+      x="660"
+      y="387"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      into hours of research.
+    </text>
+
+
+    <!-- Background noise -->
+
+    <text
+      x="660"
+      y="429"
+      font-size="18"
+      font-weight="700"
+    >
+      🎧 Working with a little background noise
+    </text>
+
+    <text
+      x="660"
+      y="455"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      Music, anime, or whatever happens to be
+    </text>
+
+    <text
+      x="660"
+      y="479"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      playing.
+    </text>
+
+
+    <!-- Figuring things out -->
+
+    <text
+      x="660"
+      y="521"
+      font-size="18"
+      font-weight="700"
+    >
+      🧩 Figuring things out
+    </text>
+
+    <text
+      x="660"
+      y="547"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      Especially when something doesn't work
+    </text>
+
+    <text
+      x="660"
+      y="571"
+      font-size="16"
+      fill="#C9D1D9"
+    >
+      the way I expected.
+    </text>
+
+  </g>
 
 </svg>
