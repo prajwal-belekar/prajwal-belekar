@@ -110,8 +110,8 @@
       width="650"
       height="620"
       preserveAspectRatio="xMidYMid slice"
-      href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
-      xlink:href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
+      href=".\assets\itachi.png"
+      xlink:href="./assets/itachi.png"
     />
 
     <!-- Very subtle image fade -->
