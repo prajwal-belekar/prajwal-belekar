@@ -10,7 +10,6 @@
   />
 </p>
 
-<br>
 
 <h1 align="center">
   PRAJWAL BELEKAR
