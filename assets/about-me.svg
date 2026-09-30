@@ -104,14 +104,14 @@
 
   <g clip-path="url(#imageClip)">
 
-    <image
-      x="0"
-      y="0"
-      width="650"
-      height="620"
-      preserveAspectRatio="xMidYMid slice"
-      href=".\assets\itachi.png"
-      xlink:href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
+   <image
+  x="0"
+  y="0"
+  width="650"
+  height="620"
+  preserveAspectRatio="xMidYMid slice"
+  href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
+  xlink:href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
     />
 
     <!-- Very subtle image fade -->
