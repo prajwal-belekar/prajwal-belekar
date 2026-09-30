@@ -11,6 +11,8 @@
   <!-- ===================================================== -->
 
   <rect
+    x="0"
+    y="0"
     width="1200"
     height="620"
     rx="24"
@@ -18,23 +20,28 @@
   />
 
   <!-- ===================================================== -->
-  <!-- LEFT IMAGE -->
+  <!-- DEFINITIONS -->
   <!-- ===================================================== -->
 
   <defs>
 
-    <!-- Left-side image clipping -->
+    <!-- Full-height left image -->
     <clipPath id="imageClip">
-      <rect
-        x="0"
-        y="0"
-        width="610"
-        height="620"
-        rx="24"
+      <path
+        d="
+          M24 0
+          H650
+          V620
+          H24
+          Q0 620 0 596
+          V24
+          Q0 0 24 0
+          Z
+        "
       />
     </clipPath>
 
-    <!-- Gradient over image -->
+    <!-- Subtle fade from image into text -->
     <linearGradient
       id="imageFade"
       x1="0"
@@ -45,23 +52,23 @@
       <stop
         offset="0%"
         stop-color="#000000"
-        stop-opacity="0.05"
+        stop-opacity="0"
       />
 
       <stop
-        offset="65%"
+        offset="70%"
         stop-color="#000000"
-        stop-opacity="0.15"
+        stop-opacity="0.05"
       />
 
       <stop
         offset="100%"
         stop-color="#0D1117"
-        stop-opacity="0.95"
+        stop-opacity="0.75"
       />
     </linearGradient>
 
-    <!-- Text panel gradient -->
+    <!-- Right panel -->
     <linearGradient
       id="panelGradient"
       x1="0"
@@ -72,7 +79,13 @@
       <stop
         offset="0%"
         stop-color="#0D1117"
-        stop-opacity="0.88"
+        stop-opacity="0.80"
+      />
+
+      <stop
+        offset="15%"
+        stop-color="#0D1117"
+        stop-opacity="0.96"
       />
 
       <stop
@@ -84,6 +97,7 @@
 
   </defs>
 
+
   <!-- ===================================================== -->
   <!-- ITACHI IMAGE -->
   <!-- ===================================================== -->
@@ -91,51 +105,56 @@
   <g clip-path="url(#imageClip)">
 
     <image
-      href="./itachi.png"
       x="0"
       y="0"
-      width="610"
+      width="650"
       height="620"
       preserveAspectRatio="xMidYMid slice"
+      href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
+      xlink:href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
     />
 
-    <!-- Image fade into text section -->
+    <!-- Very subtle image fade -->
     <rect
       x="0"
       y="0"
-      width="610"
+      width="650"
       height="620"
       fill="url(#imageFade)"
     />
 
   </g>
 
+
   <!-- ===================================================== -->
   <!-- RIGHT TEXT PANEL -->
   <!-- ===================================================== -->
 
   <rect
-    x="590"
+    x="625"
     y="0"
-    width="610"
+    width="575"
     height="620"
     fill="url(#panelGradient)"
   />
 
+
   <!-- ===================================================== -->
-  <!-- VERTICAL DIVIDER -->
+  <!-- DIVIDER -->
   <!-- ===================================================== -->
 
   <rect
-    x="610"
-    y="45"
+    x="650"
+    y="55"
     width="1"
-    height="530"
+    height="510"
     fill="#30363D"
+    opacity="0.8"
   />
 
+
   <!-- ===================================================== -->
-  <!-- TEXT CONTENT -->
+  <!-- TEXT -->
   <!-- ===================================================== -->
 
   <g
@@ -146,9 +165,9 @@
     <!-- Heading -->
 
     <text
-      x="660"
-      y="78"
-      font-size="28"
+      x="700"
+      y="82"
+      font-size="25"
       font-weight="700"
     >
       Hey 👋
@@ -158,159 +177,171 @@
     <!-- Intro -->
 
     <text
-      x="660"
-      y="125"
-      font-size="18"
+      x="700"
+      y="122"
+      font-size="16"
       fill="#E6EDF3"
     >
-      I'm the kind of person who can start with
+      I'm the kind of person who can start with a simple idea and
     </text>
 
     <text
-      x="660"
-      y="151"
-      font-size="18"
+      x="700"
+      y="145"
+      font-size="16"
       fill="#E6EDF3"
     >
-      a simple idea and somehow end up
+      somehow end up exploring five completely different
     </text>
 
     <text
-      x="660"
-      y="177"
-      font-size="18"
-      fill="#E6EDF3"
-    >
-      exploring five completely different
-    </text>
-
-    <text
-      x="660"
-      y="203"
-      font-size="18"
+      x="700"
+      y="168"
+      font-size="16"
       fill="#E6EDF3"
     >
       technologies.
     </text>
 
 
-    <!-- Learning by building -->
+    <!-- Learning -->
 
     <text
-      x="660"
-      y="245"
-      font-size="18"
+      x="700"
+      y="208"
+      font-size="16"
       font-weight="700"
     >
       🌱 Learning by building
     </text>
 
     <text
-      x="660"
-      y="271"
-      font-size="16"
+      x="700"
+      y="231"
+      font-size="14"
       fill="#C9D1D9"
     >
-      I understand things better when I actually
+      I understand things better when I actually get to work with
     </text>
 
     <text
-      x="660"
-      y="295"
-      font-size="16"
+      x="700"
+      y="252"
+      font-size="14"
       fill="#C9D1D9"
     >
-      get to work with them.
+      them.
     </text>
 
 
     <!-- Rabbit holes -->
 
     <text
-      x="660"
-      y="337"
-      font-size="18"
+      x="700"
+      y="292"
+      font-size="16"
       font-weight="700"
     >
       🔍 Going down rabbit holes
     </text>
 
     <text
-      x="660"
-      y="363"
-      font-size="16"
+      x="700"
+      y="315"
+      font-size="14"
       fill="#C9D1D9"
     >
-      One interesting question can easily turn
+      One interesting question can easily turn into hours of
     </text>
 
     <text
-      x="660"
-      y="387"
-      font-size="16"
+      x="700"
+      y="336"
+      font-size="14"
       fill="#C9D1D9"
     >
-      into hours of research.
+      research.
     </text>
 
 
     <!-- Background noise -->
 
     <text
-      x="660"
-      y="429"
-      font-size="18"
+      x="700"
+      y="376"
+      font-size="16"
       font-weight="700"
     >
       🎧 Working with a little background noise
     </text>
 
     <text
-      x="660"
-      y="455"
-      font-size="16"
+      x="700"
+      y="399"
+      font-size="14"
       fill="#C9D1D9"
     >
-      Music, anime, or whatever happens to be
-    </text>
-
-    <text
-      x="660"
-      y="479"
-      font-size="16"
-      fill="#C9D1D9"
-    >
-      playing.
+      Music, anime, or whatever happens to be playing.
     </text>
 
 
     <!-- Figuring things out -->
 
     <text
-      x="660"
-      y="521"
-      font-size="18"
+      x="700"
+      y="439"
+      font-size="16"
       font-weight="700"
     >
       🧩 Figuring things out
     </text>
 
     <text
-      x="660"
-      y="547"
-      font-size="16"
+      x="700"
+      y="462"
+      font-size="14"
       fill="#C9D1D9"
     >
-      Especially when something doesn't work
+      Especially when something doesn't work the way I
     </text>
 
     <text
-      x="660"
-      y="571"
-      font-size="16"
+      x="700"
+      y="483"
+      font-size="14"
       fill="#C9D1D9"
     >
-      the way I expected.
+      expected.
+    </text>
+
+
+    <!-- Bottom note -->
+
+    <line
+      x1="700"
+      y1="515"
+      x2="1140"
+      y2="515"
+      stroke="#30363D"
+      stroke-width="1"
+    />
+
+    <text
+      x="700"
+      y="542"
+      font-size="12"
+      fill="#8B949E"
+    >
+      Currently trying to balance curiosity, code, and way too many
+    </text>
+
+    <text
+      x="700"
+      y="560"
+      font-size="12"
+      fill="#8B949E"
+    >
+      tabs.
     </text>
 
   </g>
