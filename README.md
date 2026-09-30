@@ -39,7 +39,7 @@
 
 <p align="center">
   <img
-    src="YOUR_ANIME_OR_CODING_GIF_URL"
+    src="./assets/about-anime.gif"
     width="220"
     alt="Anime inspired coding animation"
   />
