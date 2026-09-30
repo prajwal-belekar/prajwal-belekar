@@ -767,19 +767,9 @@ Trying out technologies that look interesting.
 </p>
 
 
-<!-- ========================================================= -->
-<!--                    A LITTLE ABOUT ME                     -->
-<!-- ========================================================= -->
+<h2 align="center">A Little Bit About Me</h2>
 
-<h2 align="center">
-  A Little Bit About Me
-</h2>
-
-<p align="center">
-  Outside the code
-</p>
-
-<br>
+<p align="center">Outside the code</p>
 
 <p align="center">
   <img
@@ -788,8 +778,6 @@ Trying out technologies that look interesting.
     alt="A little bit about me"
   />
 </p>
-
-<br>
 
 
 <!-- ========================================================= -->

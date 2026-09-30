@@ -1,49 +1,32 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="1200"
-  height="620"
-  viewBox="0 0 1200 620"
+  width="512"
+  height="288"
+  viewBox="0 0 512 288"
 >
 
-  <!-- ===================================================== -->
-  <!-- BACKGROUND -->
-  <!-- ===================================================== -->
+  <!-- ================================================= -->
+  <!-- BACKGROUND IMAGE -->
+  <!-- ================================================= -->
 
-  <rect
+  <image
+    href="./about-me-bg.png"
     x="0"
     y="0"
-    width="1200"
-    height="620"
-    rx="24"
-    fill="#0D1117"
+    width="512"
+    height="288"
+    preserveAspectRatio="none"
   />
 
-  <!-- ===================================================== -->
-  <!-- DEFINITIONS -->
-  <!-- ===================================================== -->
+
+  <!-- ================================================= -->
+  <!-- DARK TEXT PANEL -->
+  <!-- ================================================= -->
 
   <defs>
 
-    <!-- Full-height left image -->
-    <clipPath id="imageClip">
-      <path
-        d="
-          M24 0
-          H650
-          V620
-          H24
-          Q0 620 0 596
-          V24
-          Q0 0 24 0
-          Z
-        "
-      />
-    </clipPath>
-
-    <!-- Subtle fade from image into text -->
     <linearGradient
-      id="imageFade"
+      id="textFade"
       x1="0"
       y1="0"
       x2="1"
@@ -51,294 +34,243 @@
     >
       <stop
         offset="0%"
-        stop-color="#000000"
-        stop-opacity="0"
-      />
-
-      <stop
-        offset="70%"
-        stop-color="#000000"
-        stop-opacity="0.05"
-      />
-
-      <stop
-        offset="100%"
         stop-color="#0D1117"
-        stop-opacity="0.75"
+        stop-opacity="0.15"
       />
-    </linearGradient>
 
-    <!-- Right panel -->
-    <linearGradient
-      id="panelGradient"
-      x1="0"
-      y1="0"
-      x2="1"
-      y2="0"
-    >
       <stop
-        offset="0%"
+        offset="35%"
         stop-color="#0D1117"
         stop-opacity="0.80"
       />
 
       <stop
-        offset="15%"
-        stop-color="#0D1117"
-        stop-opacity="0.96"
-      />
-
-      <stop
         offset="100%"
         stop-color="#0D1117"
-        stop-opacity="1"
+        stop-opacity="0.97"
       />
     </linearGradient>
 
   </defs>
 
-
-  <!-- ===================================================== -->
-  <!-- ITACHI IMAGE -->
-  <!-- ===================================================== -->
-
-  <g clip-path="url(#imageClip)">
-
-   <image
-  x="0"
-  y="0"
-  width="650"
-  height="620"
-  preserveAspectRatio="xMidYMid slice"
-  href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
-  xlink:href="https://raw.githubusercontent.com/prajwal-belekar/prajwal-belekar/main/assets/itachi.png"
-    />
-
-    <!-- Very subtle image fade -->
-    <rect
-      x="0"
-      y="0"
-      width="650"
-      height="620"
-      fill="url(#imageFade)"
-    />
-
-  </g>
-
-
-  <!-- ===================================================== -->
-  <!-- RIGHT TEXT PANEL -->
-  <!-- ===================================================== -->
-
   <rect
-    x="625"
+    x="260"
     y="0"
-    width="575"
-    height="620"
-    fill="url(#panelGradient)"
+    width="252"
+    height="288"
+    fill="url(#textFade)"
   />
 
 
-  <!-- ===================================================== -->
-  <!-- DIVIDER -->
-  <!-- ===================================================== -->
+  <!-- ================================================= -->
+  <!-- VERTICAL DIVIDER -->
+  <!-- ================================================= -->
 
   <rect
-    x="650"
-    y="55"
+    x="265"
+    y="22"
     width="1"
-    height="510"
+    height="244"
     fill="#30363D"
     opacity="0.8"
   />
 
 
-  <!-- ===================================================== -->
+  <!-- ================================================= -->
   <!-- TEXT -->
-  <!-- ===================================================== -->
+  <!-- ================================================= -->
 
   <g
     font-family="Arial, Helvetica, sans-serif"
     fill="#F0F6FC"
   >
 
-    <!-- Heading -->
+    <!-- HEY -->
 
     <text
-      x="700"
-      y="82"
-      font-size="25"
+      x="280"
+      y="48"
+      font-size="12"
       font-weight="700"
     >
       Hey 👋
     </text>
 
 
-    <!-- Intro -->
+    <!-- INTRO -->
 
     <text
-      x="700"
-      y="122"
-      font-size="16"
+      x="280"
+      y="67"
+      font-size="7.2"
       fill="#E6EDF3"
     >
       I'm the kind of person who can start with a simple idea and
     </text>
 
     <text
-      x="700"
-      y="145"
-      font-size="16"
+      x="280"
+      y="78"
+      font-size="7.2"
       fill="#E6EDF3"
     >
       somehow end up exploring five completely different
     </text>
 
     <text
-      x="700"
-      y="168"
-      font-size="16"
+      x="280"
+      y="89"
+      font-size="7.2"
       fill="#E6EDF3"
     >
       technologies.
     </text>
 
 
-    <!-- Learning -->
+    <!-- LEARNING -->
 
     <text
-      x="700"
-      y="208"
-      font-size="16"
+      x="280"
+      y="108"
+      font-size="8"
       font-weight="700"
     >
       🌱 Learning by building
     </text>
 
     <text
-      x="700"
-      y="231"
-      font-size="14"
+      x="280"
+      y="119"
+      font-size="6.8"
       fill="#C9D1D9"
     >
       I understand things better when I actually get to work with
     </text>
 
     <text
-      x="700"
-      y="252"
-      font-size="14"
+      x="280"
+      y="129"
+      font-size="6.8"
       fill="#C9D1D9"
     >
       them.
     </text>
 
 
-    <!-- Rabbit holes -->
+    <!-- RABBIT HOLES -->
 
     <text
-      x="700"
-      y="292"
-      font-size="16"
+      x="280"
+      y="148"
+      font-size="8"
       font-weight="700"
     >
       🔍 Going down rabbit holes
     </text>
 
     <text
-      x="700"
-      y="315"
-      font-size="14"
+      x="280"
+      y="159"
+      font-size="6.8"
       fill="#C9D1D9"
     >
       One interesting question can easily turn into hours of
     </text>
 
     <text
-      x="700"
-      y="336"
-      font-size="14"
+      x="280"
+      y="169"
+      font-size="6.8"
       fill="#C9D1D9"
     >
       research.
     </text>
 
 
-    <!-- Background noise -->
+    <!-- BACKGROUND NOISE -->
 
     <text
-      x="700"
-      y="376"
-      font-size="16"
+      x="280"
+      y="188"
+      font-size="8"
       font-weight="700"
     >
       🎧 Working with a little background noise
     </text>
 
     <text
-      x="700"
-      y="399"
-      font-size="14"
+      x="280"
+      y="199"
+      font-size="6.8"
       fill="#C9D1D9"
     >
-      Music, anime, or whatever happens to be playing.
+      Music, anime, or whatever happens to be
+    </text>
+
+    <text
+      x="280"
+      y="209"
+      font-size="6.8"
+      fill="#C9D1D9"
+    >
+      playing.
     </text>
 
 
-    <!-- Figuring things out -->
+    <!-- FIGURING THINGS OUT -->
 
     <text
-      x="700"
-      y="439"
-      font-size="16"
+      x="280"
+      y="228"
+      font-size="8"
       font-weight="700"
     >
       🧩 Figuring things out
     </text>
 
     <text
-      x="700"
-      y="462"
-      font-size="14"
+      x="280"
+      y="239"
+      font-size="6.8"
       fill="#C9D1D9"
     >
       Especially when something doesn't work the way I
     </text>
 
     <text
-      x="700"
-      y="483"
-      font-size="14"
+      x="280"
+      y="249"
+      font-size="6.8"
       fill="#C9D1D9"
     >
       expected.
     </text>
 
 
-    <!-- Bottom note -->
+    <!-- BOTTOM LINE -->
 
     <line
-      x1="700"
-      y1="515"
-      x2="1140"
-      y2="515"
+      x1="280"
+      y1="260"
+      x2="498"
+      y2="260"
       stroke="#30363D"
-      stroke-width="1"
+      stroke-width="0.7"
     />
 
     <text
-      x="700"
-      y="542"
-      font-size="12"
+      x="280"
+      y="270"
+      font-size="5.5"
       fill="#8B949E"
     >
       Currently trying to balance curiosity, code, and way too many
     </text>
 
     <text
-      x="700"
-      y="560"
-      font-size="12"
+      x="280"
+      y="279"
+      font-size="5.5"
       fill="#8B949E"
     >
       tabs.
