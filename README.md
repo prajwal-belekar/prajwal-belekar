@@ -40,7 +40,7 @@
 <p align="center">
   <img
     src="./assets/about-anime.gif"
-    width="220"
+    width="500"
     alt="Anime inspired coding animation"
   />
 </p>
