@@ -1,0 +1,183 @@
+<svg
+  width="900"
+  height="520"
+  viewBox="0 0 900 520"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Itachi background -->
+  <image
+    href="itachi.png"
+    x="0"
+    y="0"
+    width="900"
+    height="520"
+    preserveAspectRatio="xMidYMid slice"
+  />
+
+  <!-- Dark transparent panel behind text -->
+  <rect
+    x="455"
+    y="0"
+    width="445"
+    height="520"
+    fill="#05070b"
+    opacity="0.58"
+  />
+
+  <!-- Heading -->
+  <text
+    x="495"
+    y="72"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="27"
+    font-weight="700"
+  >
+    Hey 👋
+  </text>
+
+  <!-- Introduction -->
+  <text
+    x="495"
+    y="112"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+  >
+    I'm the kind of person who can start with
+  </text>
+
+  <text
+    x="495"
+    y="136"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+  >
+    a simple idea and somehow end up exploring
+  </text>
+
+  <text
+    x="495"
+    y="160"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+  >
+    completely different technologies.
+  </text>
+
+
+  <!-- Learning -->
+  <text
+    x="495"
+    y="205"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+  >
+    🌱 Learning by building
+  </text>
+
+  <text
+    x="495"
+    y="228"
+    fill="#dddddd"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+  >
+    I understand things better when I actually
+  </text>
+
+  <text
+    x="495"
+    y="249"
+    fill="#dddddd"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+  >
+    get to work with them.
+  </text>
+
+
+  <!-- Rabbit holes -->
+  <text
+    x="495"
+    y="295"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+  >
+    🔍 Going down rabbit holes
+  </text>
+
+  <text
+    x="495"
+    y="318"
+    fill="#dddddd"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+  >
+    One interesting question can easily turn
+  </text>
+
+  <text
+    x="495"
+    y="339"
+    fill="#dddddd"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+  >
+    into hours of research.
+  </text>
+
+
+  <!-- Background noise -->
+  <text
+    x="495"
+    y="385"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+  >
+    🎧 Working with a little background noise
+  </text>
+
+  <text
+    x="495"
+    y="408"
+    fill="#dddddd"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+  >
+    Music, anime, or whatever happens to be playing.
+  </text>
+
+
+  <!-- Figuring things out -->
+  <text
+    x="495"
+    y="452"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+  >
+    🧩 Figuring things out
+  </text>
+
+  <text
+    x="495"
+    y="475"
+    fill="#dddddd"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+  >
+    Especially when something doesn't work as expected.
+  </text>
+
+</svg>
