@@ -4,7 +4,7 @@
 
 <p align="center">
   <img
-    src="./asset/anime-banner.png"
+    src="./assets/anime-banner.png"
     width="100%"
     alt="Anime inspired banner"
   />
