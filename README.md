@@ -773,7 +773,7 @@ Trying out technologies that look interesting.
 
 <p align="center">
   <img
-    src="./assets/about-me.svg"
+    src="assets/about-me.svg"
     width="100%"
     alt="A little bit about me"
   />
